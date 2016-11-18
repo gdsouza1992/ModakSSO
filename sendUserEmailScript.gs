@@ -12,7 +12,7 @@ var randomToken = makeid(20);
 // postData(userEmail,randomToken);  
 var randomText = "?randID="+randomToken;
 var userQuerystring = "&user_email="+userEmail;
-var queryString="http://www.grafikos-studio.com"+randomText+userQuerystring;
+var queryString="https://gdsouza1992.github.io/ModakSSO/"+randomText+userQuerystring;
 var html =  '<body> <h2> Test </h2><br /> <a href="'+queryString+'">Link goes here</a></body>';    
 
 var subject = "Form Submitted";
