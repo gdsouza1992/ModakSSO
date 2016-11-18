@@ -2,10 +2,10 @@
 function addUserToken(e){
 
 //Get the details from the spreadsheet
-// var userName = e.values[1];
-// var userEmail = e.values[3];
-var userName = "Heramb Jadhav";  
-var userEmail = "carina.round21@gmail.com";  
+var userName = e.values[1];
+var userEmail = e.values[3];
+//var userName = "Heramb Jadhav";  
+//var userEmail = "carina.round21@gmail.com";  
 var randomToken = makeid(20);
   
 //create a token for the currentuser  
